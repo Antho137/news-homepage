@@ -1,0 +1,378 @@
+body {
+    margin: 0 auto;
+}
+
+.container-fluid {
+    background-color: #fff;
+}
+
+#head {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu img {
+    border: none;
+    padding-right: 20px;
+}
+
+#navbar ul {
+    width: 70%;
+    position: fixed;
+    top: 50px;
+    z-index: 5;
+    right: -50px;
+    padding: 30px 0;
+    text-align: center;
+    background-color: hsl(36, 100%, 99%);
+}
+
+#navbar li a { 
+    padding: 20px; 
+    text-align: center;
+}
+
+#navbar a {
+    font-size: .9375rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#one, #techno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    padding: 0;
+}
+
+#main {
+    margin: 20px 0;
+    padding: 0;
+}
+
+#web3 img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.img-desktop {
+    display: none;
+}
+
+.img-mobile {
+    display: block;
+}
+
+#intro {
+    padding: 20px 0;
+}
+
+#intro h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+#introtext {
+    padding: 20px 15px 0;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 700;
+    color:  hsl(236, 13%, 42%);
+}
+
+#intro .btn {
+    color: #fff;
+    border: none;
+    letter-spacing: .3125rem;
+    font-size: .875rem;
+    padding: 7px 30px 10px;
+    text-transform: uppercase;
+    background-color: hsl(5, 85%, 63%);
+}
+
+#third {
+    margin: 0;
+}
+
+#aside {
+    width: auto;
+    padding: 20px 15px;
+    margin: 10px 15px;
+    background-color: hsl(240, 100%, 5%);
+    border: 1px solid #d3d3d3;
+}
+
+#aside h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#aside h3 {
+    color: hsl(36, 100%, 99%);
+}
+
+#aside h3 {
+    font-size: 1.3125rem;
+    font-weight: 400;
+    margin: 20px 0 10px;
+}
+
+#aside hr {
+    margin: 40px 0;
+    border-color: #fff;
+}
+
+#techno {
+    margin: 20px 0 0;
+}
+
+#techno img {
+    max-width: 100%;
+    height: auto;
+}
+
+#techno .number {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#techno h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#pcs, #laptops, #gaming {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#footer {
+    width: 100%;
+    margin: 30px 0 0;
+    text-align: center;
+}
+
+.attribution {
+    padding: 20px 0;
+    font-size: .9375rem; 
+    text-align: center; 
+}
+
+.attribution p {
+    color: #000; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} 
+
+@media only screen and (min-width: 768px) {
+
+    #head {
+        padding: 0 10px;
+    }
+
+    #navbar {
+        padding-left: 170px;
+    }
+
+    #navbar ul {
+        width: 100%;
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-bottom: 0;
+        padding: 20px;
+        text-align: center;
+        background-color: inherit;
+        transition: none;
+    }
+
+    #web3 {
+        padding: 0 40px;
+    }
+
+    .img-desktop {
+        display: block;
+    }
+    
+    .img-mobile {
+        display: none;
+    }
+
+    #intro {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 120px;
+    }
+
+    #introtitle {
+        padding: 0;
+    }
+
+    #intro h1 {
+        line-height: 1;
+        margin-right: 30px;
+        font-size: 2.5rem;
+    }
+
+    #introtext {
+        padding: 0;
+    }
+
+    #aside {
+        margin: 20px 40px;
+    }
+
+    #techno {
+        margin: 20px 40px;
+    }
+
+    #pcs, #laptops, #gaming {
+        margin: 10px 30px;
+    }
+}
+
+@media only screen and (min-width: 896px) {
+
+    #head {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    #nav {
+        padding: 0;
+    }
+
+    #navbar {
+        padding-left: 280px;
+    }
+
+    #one {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    #web3 {
+        padding: 0;
+    }
+
+    #aside {
+        margin: 20px 0;
+    }
+
+    #intro {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+
+    #introtitle {
+        padding: 0;
+    }
+
+    #introtext p {
+        padding: 10px 10px 10px 0;
+    }
+
+    #techno {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    #techno {
+        gap: 10px;
+        margin: 40px 0 0;
+    }
+
+    #pcs, #laptops, #gaming {
+        margin: 10px 0;
+    }
+
+    #first, #second, #fourth {
+        margin: 0;
+    }
+}@media only screen and (min-width: 960px) {    
+
+    #navbar {
+        padding-left: 360px;
+    }
+
+}
+
+@media only screen and (min-width: 1080px) {
+
+    #head {
+        padding: 0 20px;
+    }
+
+    #navbar {
+        padding-left: 440px;
+    }
+    
+}
+
+@media only screen and (min-width: 1180px) {
+
+    #head {
+        padding: 0 100px;
+    }
+
+    #navbar {
+        padding-left: 460px;
+    }
+
+    #intro h1 {
+        line-height: 1;
+        margin-right: 30px;
+        font-size: 3.125rem;
+    }
+
+    #aside {
+        width: auto;
+        padding: 20px 15px 0;
+    }    
+
+    #aside h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+     
+}
+
+@media only screen and (min-width: 1360px) {
+
+    #head {
+        padding: 0 100px;
+    }
+
+    #navbar {
+        padding-left: 580px;
+    }
+}
